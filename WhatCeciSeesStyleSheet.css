@@ -1,0 +1,262 @@
+*{
+	box-sizing: border-box;
+}
+
+/* Add a background color to the top navigation (text in nav bar) #333 */
+.topnav {
+  /*background-color: transparent;*/
+  background-color: hsla(50, 43%, 97%, 0.85);
+  border-radius:15px;
+  overflow: hidden;
+  /*margin-left:7.5%;
+  margin-right:7.5%;*/
+  position:fixed;
+  top:0px;
+  left:240px;
+  margin: 10px;
+  z-index:10;
+}
+
+/* Style the links inside the navigation bar (navigation bar color) #f2f2f2  */
+.topnav a {
+  float: left;
+  color: gray;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 900;
+}
+
+/* Change the color of links on hover (category) */
+.topnav a:hover {
+  /*background-color: #ddd;*/
+  color: black;
+  font-weight: 900;
+}
+
+/* Add a color to the active/current link (home) */
+.topnav a.active {
+  background-color:#A7B688;
+  border-radius: 15px;
+  color: black;
+  font-weight: 900;
+  margin-right: 0%;
+  
+}
+
+.topnav a.active:hover {
+	background-color:#ddd;
+	color:black;
+	font-weight: 900;
+	border-radius: 15px;
+}
+
+
+
+#banner {
+	background-image: url("https://i.ibb.co/Xsp98kH/site-title2.jpg");
+	/*background-image: url("https://i.ibb.co/J52MdjK/Site-title2.jpg");*/
+	/*background-image: url("https://i.ibb.co/tpSsmgV/Site-title.jpg");*/
+	/*background-size: contain; */
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-position:center left;
+	/*margin-left:auto;
+	margin-right:auto;
+	width:85%;
+	height:30%;
+	overflow:scroll;*/
+	margin-top: 5px;
+	border-radius: 0px;
+	padding: .5% 0%;
+	z-index:0;
+	height:38rem;
+}
+
+#banner .sitetitle h1 {
+	font-family: 'Cabin Sketch', cursive;
+	/*font-family:'Poiret One', Cursive;*/
+	font-weight:400;
+	margin-left: 0px;
+	font-size: 180px;
+	color:gray;
+	-webkit-text-stroke-width: 1.5px;
+	-webkit-text-stroke-color: white;
+	padding: 25px;
+	position: relative;
+	top: 0.5%;
+	left:1%;
+	position:bottom;
+	z-index:1;
+	display:block;
+
+	
+}
+
+#body {
+	width: 100%;
+	height: 740px;
+	margin: 0px auto;
+	overflow:scroll;
+}
+
+#content {
+	width: 90%;
+	margin: 5% auto;
+}
+
+body{
+	/*font-family: 'Candara', sans-serif;*/
+	font-family:'Poiret One', cursive;
+	font-weight:bolder;
+	background-color: #FBFAF5;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 13px;
+	width:100%;
+	height:30%;
+	overflow:scroll;
+}
+
+h2{
+	font-family:'Birthstone Bounce', Cursive;
+	font-size: 30px;
+}
+
+/*May want to use display: flex and justify-content:space-around/space-between and align-items:center/stretch*/
+#wrapper {
+	width: 85%%;
+	overflow-x: auto;
+}
+#examples {
+	width: calc(50% * 3);
+	overflow:hidden;
+	background-color:#A7B688;
+	border-radius: 10px;
+	border: 3px solid #504B3A;
+}
+#examples p {
+	min-width: 200px;
+	max-width: 250px;
+	text-align: justify;
+	overflow-x:auto;
+}
+
+#examples h2 {
+	min-width: 200px;
+	max-width: 250px;
+	text-align: center;
+}
+
+.hiking {
+	border: 1px solid #504B3A;
+	border-radius: 10px;
+	margin-left: 2.25%;
+	margin-right: 0.5%;
+	margin-top:1%;
+	margin-bottom:1%;
+	padding: 0.4% 1.4%;
+	float:left;
+	background-color: hsla(57, 100%, 91%, .75);
+}
+
+img {
+	max-width: 250px;
+	height: auto;
+}
+
+.hiking p{
+	color: dimgray;
+}
+
+.hiking h2{
+	color: hsl(180, 25.4%, 29%);
+}
+
+.travel {
+	border: 1px solid #504B3A;
+	border-radius: 10px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-top:1%;
+	margin-bottom:1%;
+	padding: 0.4% 1.4%;
+	float:left;
+	background-color: hsla(211, 40%, 80%, .75);
+}
+
+.travel p{
+	color: darkslategray;
+}
+
+.travel h2{
+	color: hsl(180, 25.4%, 13%);
+	/*color: #FBFAF5;*/
+}
+
+.sustainable {
+	border: 1px solid #504B3A;
+	border-radius: 10px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-top:1%;
+	margin-bottom:1%;
+	padding: 0.4% 1.4%;
+	float:left;
+	background-color: hsla(57, 100%, 91%, .75);
+}
+
+.sustainable p{
+	color: dimgray;
+}
+
+.sustainable h2{
+	color: hsl(180, 25.4%, 29%);
+}
+
+.kayaking {
+	border: 1px solid white;
+	border-radius: 10px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-top:1%;
+	margin-bottom:1%;
+	padding: 0.4% 1.4%;
+	float:left;
+	background-color: hsla(211, 40%, 80%, .75);
+}
+
+.kayaking p{
+	color: darkslategray;
+}
+
+.kayaking h2{
+	color: hsl(180, 25.4%, 13%);
+	/*color: #FBFAF5;*/
+	
+}
+
+.recipes{
+	border: 1px solid #504B3A;
+	border-radius: 10px;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-top:1%;
+	margin-bottom:1%;
+	padding: 0.4% 1.4%;
+	float:left;
+	background-color: hsla(57, 100%, 91%, .75);
+}
+
+.recipes p{
+	color: dimgray;
+}
+
+.recipes h2{
+	color: hsl(180, 25.4%, 29%);
+}
+
+@media only screen and (max-width: 600px) {
+	
+}
